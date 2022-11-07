@@ -1,8 +1,6 @@
 package com.anuvis.net.springbootdemo.service.interfaces;
 
-import com.anuvis.net.springbootdemo.api.model.User;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Service;
+import com.anuvis.net.springbootdemo.model.entities.User;
 
 import java.util.List;
 import java.util.Optional;

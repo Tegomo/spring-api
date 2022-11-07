@@ -1,6 +1,6 @@
-package com.anuvis.net.springbootdemo.api.controller.interfaces;
+package com.anuvis.net.springbootdemo.controller.interfaces;
 
-import com.anuvis.net.springbootdemo.api.model.User;
+import com.anuvis.net.springbootdemo.model.entities.User;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

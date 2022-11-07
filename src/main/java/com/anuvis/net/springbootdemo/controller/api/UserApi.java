@@ -1,8 +1,7 @@
-package com.anuvis.net.springbootdemo.api.controller;
+package com.anuvis.net.springbootdemo.controller.api;
 
-import com.anuvis.net.springbootdemo.api.controller.interfaces.UserController;
-import com.anuvis.net.springbootdemo.api.model.User;
-import com.anuvis.net.springbootdemo.api.repository.UserRepository;
+import com.anuvis.net.springbootdemo.controller.interfaces.UserController;
+import com.anuvis.net.springbootdemo.model.entities.User;
 import com.anuvis.net.springbootdemo.service.interfaces.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +11,6 @@ import java.util.Optional;
 
 @RestController
 public class UserApi implements UserController {
-
 
     private UserService userService;
 

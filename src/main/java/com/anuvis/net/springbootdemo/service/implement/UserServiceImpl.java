@@ -1,8 +1,8 @@
-package com.anuvis.net.springbootdemo.service;
+package com.anuvis.net.springbootdemo.service.implement;
 
 
-import com.anuvis.net.springbootdemo.api.model.User;
-import com.anuvis.net.springbootdemo.api.repository.UserRepository;
+import com.anuvis.net.springbootdemo.model.entities.User;
+import com.anuvis.net.springbootdemo.repository.UserRepository;
 import com.anuvis.net.springbootdemo.service.interfaces.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,4 +39,5 @@ public class UserServiceImpl implements UserService {
     public User save(User user) {
         return userRepository.save(user);
     }
+
 }
