@@ -1,6 +1,6 @@
 package com.anuvis.net.springbootdemo.service.interfaces;
 
-import com.anuvis.net.springbootdemo.model.entities.User;
+import com.anuvis.net.springbootdemo.models.entities.User;
 
 import java.util.List;
 import java.util.Optional;

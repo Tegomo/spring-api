@@ -1,12 +1,12 @@
-package com.anuvis.net.springbootdemo.controller.interfaces;
+package com.anuvis.net.springbootdemo.controllers.interfaces;
 
-import com.anuvis.net.springbootdemo.model.entities.User;
+import com.anuvis.net.springbootdemo.models.entities.User;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
 
-@RequestMapping( "user")
+@RequestMapping( "api/v1/user")
 public interface UserController {
     @GetMapping("/all")
     List<User> userList();

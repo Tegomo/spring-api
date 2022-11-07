@@ -1,7 +1,7 @@
-package com.anuvis.net.springbootdemo.controller.api;
+package com.anuvis.net.springbootdemo.controllers.api;
 
-import com.anuvis.net.springbootdemo.controller.interfaces.UserController;
-import com.anuvis.net.springbootdemo.model.entities.User;
+import com.anuvis.net.springbootdemo.controllers.interfaces.UserController;
+import com.anuvis.net.springbootdemo.models.entities.User;
 import com.anuvis.net.springbootdemo.service.interfaces.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;

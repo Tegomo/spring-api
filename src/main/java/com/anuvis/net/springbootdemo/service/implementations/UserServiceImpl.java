@@ -1,7 +1,7 @@
-package com.anuvis.net.springbootdemo.service.implement;
+package com.anuvis.net.springbootdemo.service.implementations;
 
 
-import com.anuvis.net.springbootdemo.model.entities.User;
+import com.anuvis.net.springbootdemo.models.entities.User;
 import com.anuvis.net.springbootdemo.repository.UserRepository;
 import com.anuvis.net.springbootdemo.service.interfaces.UserService;
 import lombok.extern.slf4j.Slf4j;

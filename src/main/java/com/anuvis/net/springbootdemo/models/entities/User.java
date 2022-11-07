@@ -1,4 +1,4 @@
-package com.anuvis.net.springbootdemo.model.entities;
+package com.anuvis.net.springbootdemo.models.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
